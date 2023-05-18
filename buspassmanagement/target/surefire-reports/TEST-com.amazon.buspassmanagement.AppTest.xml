@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.amazon.buspassmanagement.AppTest" time="0.381" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/ishant/Downloads/AmazonAtlas22/buspassmanagement/target/test-classes:/Users/ishant/Downloads/AmazonAtlas22/buspassmanagement/target/classes:/Users/ishant/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/ishant/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/ishant/.m2/repository/com/mysql/mysql-connector-j/8.0.31/mysql-connector-j-8.0.31.jar:/Users/ishant/.m2/repository/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar:"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/zulu-16.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/ishant/Downloads/AmazonAtlas22/buspassmanagement/target/surefire/surefirebooter-20230121152007425_3.jar /Users/ishant/Downloads/AmazonAtlas22/buspassmanagement/target/surefire 2023-01-21T15-20-06_894-jvmRun1 surefire-20230121152007425_1tmp surefire_0-20230121152007425_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/ishant/Downloads/AmazonAtlas22/buspassmanagement/target/test-classes:/Users/ishant/Downloads/AmazonAtlas22/buspassmanagement/target/classes:/Users/ishant/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/ishant/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/ishant/.m2/repository/com/mysql/mysql-connector-j/8.0.31/mysql-connector-j-8.0.31.jar:/Users/ishant/.m2/repository/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/ishant"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/zulu-16.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/ishant/Downloads/AmazonAtlas22/buspassmanagement"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/ishant/Downloads/AmazonAtlas22/buspassmanagement/target/surefire/surefirebooter-20230121152007425_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="16.0.2+7"/>
+    <property name="user.name" value="ishant"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.5.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu16.32+15-CA"/>
+    <property name="localRepository" value="/Users/ishant/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="/var/folders/5g/p0vt4z4n6rlgcph3nkxkljtr0000gn/T/"/>
+    <property name="java.version" value="16.0.2"/>
+    <property name="user.dir" value="/Users/ishant/Downloads/AmazonAtlas22/buspassmanagement"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/ishant/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="16.0.2+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="testAdminLogin" classname="com.amazon.buspassmanagement.AppTest" time="0.372">
+    <system-out><![CDATA[[DB] Driver Loaded Successfully....
+[DB] Configured using File :)
+[DB] Connection Created Successfully....
+[DB] Executing SQL Query | SELECT * FROM User WHERE email = 'john@example.com' AND password = 'admin123'
+[DB] SQL Query Executed...
+]]></system-out>
+  </testcase>
+  <testcase name="testUserLogin" classname="com.amazon.buspassmanagement.AppTest" time="0.001">
+    <system-out><![CDATA[[DB] Executing SQL Query | SELECT * FROM User WHERE email = 'sia@example.com' AND password = 'IoZ/qxiCszvPygUg2hfAQTFAELOEwMxKzireBmUFk5w='
+[DB] SQL Query Executed...
+]]></system-out>
+  </testcase>
+</testsuite>

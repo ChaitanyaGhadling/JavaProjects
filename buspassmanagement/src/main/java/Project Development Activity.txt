@@ -1,0 +1,33 @@
+Project Development Sessions
+    1. Flow Mapping
+    2. OOPS -> Identify Objects and Attributes
+        User | name, phone email
+        1 to 1
+        1 to many
+    3. ORM -> Entity Relationship | DBMS
+    4. Code the Project
+        4.1 Modules
+            eg: Admin
+                User
+                etc...
+        4.2 Well Packaging
+        4.3 Design Patterns
+            Singleton to design DataBase Structure
+            Factory for RTP Behavior
+    5. Test Cases
+            JUnit
+            TestNG
+            Selenium
+            .
+            ...
+    6. Build the Project
+        Packaging of Project in a Jar File :)
+        JAR -> Java Archive
+                Its a collection of bytecodes :) and can be executed on any platform :)
+                
+                Maven Build -> Goal set to -> clean package
+                java -jar buspassmanagement-alpha.jar
+
+> Eclipse EE IDE :)
+    Build Tool -> Maven
+> MS SQL Server or MySQL DataBase

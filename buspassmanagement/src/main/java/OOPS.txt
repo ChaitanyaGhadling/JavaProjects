@@ -1,0 +1,41 @@
+User
+    id, name, phone, email, password, address, department, type, createdOn
+    
+    type: 1 -> Admin
+    type: 2 -> User i.e. Employee who is seeking/has bus pass :)
+    type: 3 -> Driver
+
+Route
+    id, title, description, adminId, createdOn
+
+Stop
+    id, address, sequenceOrder, routeId, adminId, createdOn
+
+Vehicle
+    id, registrationNumber, totalSeats, filledSeats, routeId, type, vehicleStatus, startPickUpTime, startDropOffTime, adminId, driverID, createdOn
+    type: 1 -> Bus
+    type: 2 -> Innova
+
+BusPass
+    id, uid, routeId, requestedOn, approvedRejectedOn, validTill, status, createdOn
+        status: 1 -> Requested 
+        status: 2 -> Approved
+        status: 3 -> Canceled
+        status: 4 -> Suspended
+
+Feedback
+    id, userId, title, description, type, raisedBy, createdOn
+    type: 1 -> suggestion
+               (requesting new routes)
+    type: 2 -> complaint
+    type: 3 -> pass suspension (suspend pass and increase some timeline)
+
+Relationships
+    User IS Either Admin or Normal User | Inheritance :) 
+    Route has Stops          | 1 to many
+    Route has Vechiles       | 1 to many
+    Vechile Has Route        | 1 to 1
+    BusPass Has a Route      | 1 to 1
+    BusPass Has a User       | 1 to 1
+    Feedback Has a User      | 1 to 1 
+    User Has Feedbacks       | 1 to many

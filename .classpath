@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="buspassmanagement/src/main/java"/>
+	<classpathentry kind="src" path="buspassmanagement/src/test/java"/>
+	<classpathentry kind="lib" path="__MACOSX/buspassmanagement/target/._buspassmanagement-alpha-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="buspassmanagement/target/buspassmanagement-alpha-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="buspassmanagement/target/buspassmanagement-alpha.jar"/>
+	<classpathentry kind="output" path="buspassmanagement/target/classes"/>
+</classpath>
