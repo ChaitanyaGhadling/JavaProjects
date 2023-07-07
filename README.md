@@ -16,3 +16,6 @@ Created and managed multiple databases using MySQL and executed multiple complex
 # DMAT DATABASE ER DIAGRAM
 ![image](https://github.com/ChaitanyaGhadling/JavaProjects/assets/55136558/c3bed0b7-6f84-4101-a09c-f402a1e9fe5f)
 
+# Internal BUYING SYSTEM(CLASSIFIEDS) DATABASE ER DIAGRAM
+![image](https://github.com/ChaitanyaGhadling/JavaProjects/assets/55136558/8421b241-cb59-4d9f-ae3a-5090bdf8a03d)
+
